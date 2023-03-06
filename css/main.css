@@ -1,25 +1,34 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: ("../src/background.img.jpeg");
 }
 
+h1 {
+  color: white;
+  padding: 3vh;
+  font-size: 7vw;
+  font-style: oblique;
+  text-align: center;
+  background-color: rgb(142, 8, 8);
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
 #board {
   background-color: green;
+
   height: 100vh;
   position: relative;
 }
 
 #player {
   background-color: fuchsia;
-  width: 20vw;
-  height: 10vh;
+  background-image: ("../src/girl1.jpg");
   position: absolute;
   bottom: 0;
 }
 
 .obstacle {
-  width: 20vw;
-  height: 10vh;
   background-color: orange;
   position: absolute;
 }
