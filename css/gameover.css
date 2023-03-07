@@ -1,0 +1,12 @@
+#page-gameover {
+  text-align: center;
+  background-color: rgb(166, 161, 171);
+}
+
+h1 {
+  color: cornflowerblue;
+  text-shadow: 2px 2px blanchedalmond;
+}
+a {
+  text-shadow: 2px 2px 5px red;
+}
