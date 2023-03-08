@@ -96,13 +96,14 @@ class Food {
     const boardElm = document.getElementById("board");
     boardElm.appendChild(this.foodElm);
   }
+
   moveDown() {
     this.positionY--;
     this.foodElm.style.bottom = this.positionY + "vh";
   }
-  createFood() {
+  /*createFood() {
     return Math.floor(Math.random() * 4);
-  }
+  }*/
 }
 
 const game = new Game();
