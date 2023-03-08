@@ -15,13 +15,12 @@ body {
 }
 
 #player {
-  background-color: fuchsia;
   background-image: url("../src/img/boy5.jpg");
   position: absolute;
   bottom: 0;
 }
 
 .food {
-  background-image: url("../src/img/bad\ bana\ 1.jpg");
+  background-image: url("../src/img/bad\ bana\ 1\(1\).jpg");
   position: absolute;
 }

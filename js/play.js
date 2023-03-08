@@ -11,7 +11,7 @@ class Game {
 
     //create new obstacles
     setInterval(() => {
-      const myfood = new food();
+      const myfood = new Food();
       this.foodArr.push(myfood);
     }, 2000);
 
@@ -21,8 +21,9 @@ class Game {
         foodInstance.moveDown();
         this.detectCollision(foodInstance);
         this.removeFoodIfOutside(foodInstance);
+        this.createFood(foodInstance);
       });
-    }, 100);
+    }, 20);
   }
   attachEventListeners() {
     document.addEventListener("keydown", (e) => {
@@ -45,9 +46,10 @@ class Game {
     }
   }
   removeFoodIfOutside(foodInstance) {
-    if (foodInstance.positionY < 0) {
+    if (foodInstance.positionY <= 0) {
       foodInstance.foodElm.remove();
-      this.foodsArr.shift();
+
+      this.foodArr.shift(foodInstance);
     }
   }
 }
@@ -73,10 +75,10 @@ class Player {
   }
 }
 
-class food {
+class Food {
   constructor() {
     this.width = 9;
-    this.height = 10;
+    this.height = 19;
     this.positionX = 50 - this.width / 2;
     this.positionY = 100;
     this.foodElm = null; //will store a dom element
@@ -97,6 +99,9 @@ class food {
   moveDown() {
     this.positionY--;
     this.foodElm.style.bottom = this.positionY + "vh";
+  }
+  createFood() {
+    return Math.floor(Math.random() * 4);
   }
 }
 
