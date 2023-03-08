@@ -79,7 +79,8 @@ class Food {
   constructor() {
     this.width = 9;
     this.height = 19;
-    this.positionX = 50 - this.width / 2;
+    //this.positionX = 50 - this.width / 2;
+    this.positionX = Math.floor(Math.random() * 80);
     this.positionY = 100;
     this.foodElm = null; //will store a dom element
 
