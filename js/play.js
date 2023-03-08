@@ -1,5 +1,3 @@
-const board = document.getElementById("game-board");
-
 class Game {
   constructor() {
     this.player = null;
@@ -57,7 +55,7 @@ class Game {
 class Player {
   constructor() {
     this.width = 20;
-    this.height = 10;
+    this.height = 27;
     this.positionX = 0;
     this.positionY = 0;
     this.playerElm = document.getElementById("player");
@@ -77,7 +75,7 @@ class Player {
 
 class food {
   constructor() {
-    this.width = 20;
+    this.width = 9;
     this.height = 10;
     this.positionX = 50 - this.width / 2;
     this.positionY = 100;

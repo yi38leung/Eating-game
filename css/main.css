@@ -3,23 +3,25 @@ body {
   margin: 0;
   padding: 0;
 }
-#game-board {
-  width: 1000px;
-  height: 300px;
-  border: 2px solid black;
-  margin: auto;
+#board {
+  background-image: url("../src/img/background4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
   position: relative;
-  background-image: url(../src/img/background3.jpg);
-  background-size: 1000px 300px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
 }
 
 #player {
   background-color: fuchsia;
+  background-image: url("../src/img/boy5.jpg");
   position: absolute;
   bottom: 0;
 }
 
 .food {
-  background-color: orange;
+  background-image: url("../src/img/bad\ bana\ 1.jpg");
   position: absolute;
 }

@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: ("../src/img/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.85;
@@ -17,7 +16,7 @@ h1 {
   text-align: center;
   background-color: lightpink;
   margin-top: 2vh;
-  margin-bottom: 5vh;
+  margin-bottom: 0vh;
 }
 h2 {
   font-family: "Alexandria";
@@ -57,7 +56,7 @@ a:hover {
   background-color: lightskyblue;
 }
 img {
-  height: 77vh;
+  height: 70vh;
   width: 100vw;
 }
 
