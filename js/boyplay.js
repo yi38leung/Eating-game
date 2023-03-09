@@ -61,7 +61,6 @@ class Player {
     this.positionX = 0;
     this.positionY = 0;
     this.playerElm = document.getElementById("player");
-
     this.playerElm.style.width = this.width + "vw";
     this.playerElm.style.height = this.height + "vh";
   }

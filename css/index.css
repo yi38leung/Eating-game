@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  padding: -10vh;
+  font-size: 7vw;
+  font-style: oblique;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+}
+h2 {
+  background-color: lightskyblue;
+  color: white;
+  font-size: 2vw;
+  margin: -5vh auto;
+  width: 98vw;
+  padding: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Girl {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  bottom: 10vh;
+  left: -40vw;
+  justify-content: end;
+  text-decoration: none;
+  color: paleturquoise;
+  background-color: lightslategrey;
+  padding: 2vw;
+  font-size: 3vw;
+  border-radius: 15vw;
+}
+.Boy {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  bottom: 30vh;
+  left: 78vw;
+  justify-content: end;
+  text-decoration: none;
+  color: palevioletred;
+  background-color: lightslategrey;
+  padding: 2vw;
+  font-size: 3vw;
+  border-radius: 15vw;
+}
+
+.Boy:hover {
+  color: grey;
+  background-color: lightskyblue;
+}
+.Girl:hover {
+  color: grey;
+  background-color: lightpink;
+}
+img {
+  height: 50vh;
+  width: 100vw;
+}
+
+.imgA {
+  height: 50vh;
+  width: 40vw;
+}
+.rightContainer {
+  position: absolute;
+  display: flexbox;
+  flex-direction: row;
+  right: 0vw;
+  bottom: 20vh;
+  width: 50vw;
+  height: 50vh;
+  flex-direction: row;
+}
+.sections {
+  position: absolute;
+}
