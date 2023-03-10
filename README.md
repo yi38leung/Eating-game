@@ -8,11 +8,11 @@ Move player with arrow keys :)
 
 # Demo
 
-coming soon...
+[click here to play](https://yi38leung.github.io/Eating-game/gameover.html)
 
 # To-Do
 
-- [ ] Drop obstacles in random positions
+- Drop obstacles in random positions
 
 Functionality:
 
@@ -26,9 +26,6 @@ Code quality:
 
 - avoid repeating code for Player and Obstacle class (apply OOP inheritance)
 - settings (speed of the game, distance between obstacles)
-
-#Demo:
-[click here to play](https://yi38leung.github.io/Eating-game/gameover.html)
 
 # Further Improvements
 
