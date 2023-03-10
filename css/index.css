@@ -19,8 +19,8 @@ h1 {
   margin-bottom: 0vh;
 }
 h2 {
-  background-color: lightskyblue;
-  color: white;
+  background-color: rgb(196, 247, 196);
+  color: grey;
   font-size: 2vw;
   margin: -5vh auto;
   width: 98vw;
@@ -43,6 +43,10 @@ h2 {
   font-size: 3vw;
   border-radius: 15vw;
 }
+.Girl:hover {
+  color: grey;
+  background-color: lightpink;
+}
 .Boy {
   display: flex;
   position: absolute;
@@ -62,10 +66,7 @@ h2 {
   color: grey;
   background-color: lightskyblue;
 }
-.Girl:hover {
-  color: grey;
-  background-color: lightpink;
-}
+
 img {
   height: 50vh;
   width: 100vw;
