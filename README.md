@@ -14,30 +14,29 @@ coming soon...
 
 - [ ] Drop obstacles in random positions
 
-# Further Improvements
-
-Fix:
-
-- [ ] remove obstacles as they go outside board
-- [ ] prevent player from going outside
-
 Functionality:
 
-- shooting (recommended)
-- drop different things (prizes, different types of obstacles...)
-- count points
 - improve game over
-- levels (ex. increasing speed as user moves to the next level)
-- multiple lives
-- allow moving the player up and down
-- random sizes for obstacles
 
 UX:
 
 - add images or textures/gradients (background, player, obstacles...)
-- sound
 
 Code quality:
 
 - avoid repeating code for Player and Obstacle class (apply OOP inheritance)
 - settings (speed of the game, distance between obstacles)
+
+#Demo:
+[click here to play](https://yi38leung.github.io/Eating-game/gameover.html)
+
+# Further Improvements
+
+Improvement:
+
+- count points
+- levels (ex. increasing speed as user moves to the next level)
+- multiple lives
+- random sizes for obstacles
+- sound
+- drop different things (prizes, different types of obstacles...)
